@@ -20,7 +20,7 @@ Choosing of words:
 Gameplay:
 * Player will have 8 chances to guess the correct word, do the following while there are still rounds left or until word is correctly guessed
     1. Take in player's guess
-        * Convert guess to lower case and then check if input is a letter or that letter has not been used, if so ask player to retry
+        * Convert guess to upper case and then check if input is a letter or that letter has not been used, if so ask player to retry
     2. Check if word contains the letter guessed
     3. If no, inform player of incorrect guess and reduce number of guesses by 1. If yes, inform player of correct guess
     4. Display position of guessed letter in words, for letters still not guessed, display _ in that appropriate position. Also display incorrect letters guessed
