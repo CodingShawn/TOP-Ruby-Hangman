@@ -4,8 +4,12 @@ Hangman game for The Odin Project ruby programming
 **User Interface:**\
 Users will have to guess a word (between 5 to 12 characters) randomly selected from a dictionary file. Every round, players can make a guess of a letter and display will update to show if letter chosen was correct or not. If out of guesses, players lose
 
+Have a save function
+
 **Input**:\
 Player's choice of letter
+
+Allow players to save game and load previous game
 
 **Output**:\
 Ask for player for choice of letter. Display showing previously selected incorrect letters as well as correct letters and their position in the word chosen, and the number of guesses left before game ends
